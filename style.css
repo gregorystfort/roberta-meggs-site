@@ -847,7 +847,7 @@ button { cursor: pointer; background: none; border: none; }
    LEAD MAGNET
 ══════════════════════════════════════ */
 .lead-magnet {
-  padding-block: clamp(var(--space-16), 10vw, var(--space-28));
+  padding-block: clamp(var(--space-20), 12vw, var(--space-32));
 }
 .lead-magnet__inner {
   display: grid;
@@ -858,7 +858,7 @@ button { cursor: pointer; background: none; border: none; }
 .lead-magnet__content {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
+  gap: var(--space-5);
 }
 .lead-magnet__desc {
   font-size: var(--text-base);
@@ -910,7 +910,7 @@ button { cursor: pointer; background: none; border: none; }
    BLOG
 ══════════════════════════════════════ */
 .blog {
-  padding-block: clamp(var(--space-16), 10vw, var(--space-28));
+  padding-block: clamp(var(--space-20), 12vw, var(--space-32));
   border-top: 1px solid var(--color-border-light);
 }
 .blog__grid {
