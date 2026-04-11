@@ -1100,6 +1100,24 @@ button { cursor: pointer; background: none; border: none; }
   font-size: var(--text-xs);
   color: rgba(232, 226, 216, 0.3);
 }
+.footer__trec {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+}
+.footer__trec a {
+  color: rgba(232, 226, 216, 0.35);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+.footer__trec a:hover {
+  color: var(--color-gold);
+}
+.footer__trec-divider {
+  color: rgba(232, 226, 216, 0.2);
+}
 .footer__amd {
   font-size: var(--text-xs);
   color: rgba(232, 226, 216, 0.3);
